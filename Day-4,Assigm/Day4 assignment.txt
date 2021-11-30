@@ -1,0 +1,132 @@
+                                                                            Day-4 assignments
+
+
+1)
+
+var obj1 = { name: "Person 1", age:5 };
+var obj2 = { age:5, name: "Person 1" };
+if(obj1.name===obj2.name || obj1.age===obj2.age){
+    console.log("yes")
+}
+else{
+    console.log("no")
+}
+
+
+---------------------------------------------------------
+
+2)
+
+//square of Number(1)
+
+let a = 4
+console.log(`Square of ${a} is ${a*a}`)
+
+
+
+
+//Swapping of numbers(2)
+
+let a = 5
+let b = 10
+console.log(`Before swaping a=${a}`)
+console.log(`Before swaping b=${b}`)
+let temp = b
+b = a
+a = temp
+console.log("-------------------------------")
+console.log(`After swaping a=${a}`)
+console.log(`After swaping b=${b}`)
+
+
+
+
+//Addition of three numbers(3)
+
+let a = 5
+let b = 10
+let c = 15
+console.log(`Addition of a + b + c is ${a+b+c}`)
+
+
+
+//Meter to miles(4)
+
+let a = 1000
+console.log(`${a} meters = ${a/1609} mile`)
+
+
+
+
+//Pounds to Kg(5)
+
+let a = 5;
+console.log(`${a} Pounds = ${a/2.205} Kg`);
+
+
+
+
+//Batting average(6)
+
+let Match1 = 5;
+let Match2 = 58;
+let Match3 = 107;
+let Match4 = 17;
+console.log(`Batting average = ${Match1+Match2+Match3+Match4/4} Runs`);
+
+
+
+
+//Batting average of first five test scores(7)
+
+let TestScores =[3,76,82,25,49,98,14,8]
+let temp =0;
+for(let i = 0;i<5;i++){
+    temp = temp + TestScores[i]
+}
+console.log(`Batting average of first five TestScores is ${temp}`);
+
+
+
+
+// Powerof(8)
+
+let x = 5
+let y = 3
+console.log(`${x} power of ${y} is`,Math.pow(x,y))
+
+
+
+// Volume of sphere(9)
+
+let x = 5
+console.log(`Volume of sphere radius = ${x} is ${4/3*3.14*Math.pow(x,3)}`);
+
+
+
+
+// Area of triangle(10)
+
+let b = 5;
+let h = 4;
+console.log(` Area of triangle whose breadth is ${b} and height ${h} = ${1/2*b*h}`)
+
+
+
+-----------------------------------------------------------------------------------E.N.D------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
